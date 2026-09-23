@@ -63,12 +63,12 @@ const Card = ({
 
   return (
     <div
-      className={`relative w-full md:w-[280px] transition-transform duration-300 hover:z-30 hover:scale-105 ${rotate} ${className}`}
+      className={`relative w-full md:w-70 transition-transform duration-300 hover:z-30 hover:scale-105 ${rotate} ${className}`}
     >
       <div className="bg-white dark:bg-neutral-900 p-2 rounded-[25px] shadow-[0px_10px_20px_0px_#D3D3D3] dark:shadow-none border border-neutral-100 dark:border-neutral-800">
         <Pin className={`w-8 h-8 ${textColor} z-20 mb-6 mx-auto`} />
         <div
-          className={`${bgColor} border ${borderColor} rounded-[15px] p-[15px] h-full flex flex-col relative overflow-hidden`}
+          className={`${bgColor} border ${borderColor} rounded-[15px] p-3.75 h-full flex flex-col relative overflow-hidden`}
         >
           <span
             className={`${textColor} text-4xl font-handwriting mb-5`}
@@ -78,7 +78,7 @@ const Card = ({
           >
             {number}
           </span>
-          <h3 className="text-2xl font-semibold text-neutral-800 dark:text-neutral-100 leading-none mb-[10px]">
+          <h3 className="text-2xl font-semibold text-neutral-800 dark:text-neutral-100 leading-none mb-2.5">
             {title}
           </h3>
           <p className="text-neutral-500 dark:text-neutral-400 text-sm/5 tracking-tight">
@@ -196,15 +196,15 @@ export default function HowItWorks({
             marginTop: "4px",
           }}
         ></div>
-        <div className="from-background pointer-events-none absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r"></div>
-        <div className="from-background pointer-events-none absolute inset-y-0 right-0 w-1/2 bg-gradient-to-l"></div>
+        <div className="from-background pointer-events-none absolute inset-y-0 left-0 w-1/2 bg-linear-to-r"></div>
+        <div className="from-background pointer-events-none absolute inset-y-0 right-0 w-1/2 bg-linear-to-l"></div>
 
         <div className="max-w-6xl mx-auto relative z-10">
              <div className="text-center mb-8 md:mb-4">
                 <LabelSection>Aperçu du guide pratique</LabelSection>
             </div>
           <div
-            className="relative w-full max-w-[1000px] mx-auto flex flex-col space-y-8 md:space-y-0 md:block h-auto md:h-[var(--md-height)]"
+            className="relative w-full max-w-250 mx-auto flex flex-col space-y-8 md:space-y-0 md:block h-auto md:h-(--md-height)"
             style={{ "--md-height": `${height}px` } as React.CSSProperties}
           >
             {data.length > 1 && (

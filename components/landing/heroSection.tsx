@@ -93,7 +93,7 @@ export default function HeroSection() {
         {/* Bloc Texte */}
         <div className="relative z-10 flex flex-col items-center justify-center text-center pt-24 md:pt-28 pb-6 md:pb-8 px-4">
           <div className='flex flex-col items-center gap-3 mb-8'>
-            <h1 className="font-bold tracking-tight leading-tight text-neutral-900 leading-[1.05] max-w-5xl">
+            <h1 className="font-bold tracking-tight leading-tight text-neutral-900  max-w-5xl">
               <span className="text-primary">ÉTUDIEZ EN CHINE,</span> SANS <span className="text-primary">VOUS PERDRE</span> DANS LES DÉMARCHES
             </h1>
             <p className='w-[60%] text-center'>

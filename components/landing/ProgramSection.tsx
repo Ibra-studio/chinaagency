@@ -162,7 +162,7 @@ function ProgramCard({
         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 60vw, 40vw"
         className="object-cover object-center"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-t from-black/75 via-black/10 to-transparent" />
       <div className="absolute bottom-4 left-4 right-4 flex flex-col items-start gap-2">
         <span className="text-white font-bold uppercase text-sm md:text-base tracking-wide">
           {program.title}

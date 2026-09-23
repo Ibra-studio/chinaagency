@@ -104,7 +104,7 @@ export const NavBody = ({ children, className, visible }: NavBodyProps) => {
       className={cn(
         // Grille à 3 colonnes : logo | liens | bouton — chaque zone garde sa place,
         // impossible qu'elles se chevauchent peu importe la largeur du conteneur
-        "relative z-[60] mx-auto hidden w-full max-w-7xl grid-cols-[auto_1fr_auto] items-center gap-4 self-start rounded-full bg-transparent px-4 py-2 lg:grid dark:bg-transparent",
+        "relative z-60 mx-auto hidden w-full max-w-7xl grid-cols-[auto_1fr_auto] items-center gap-4 self-start rounded-full bg-transparent px-4 py-2 lg:grid dark:bg-transparent",
         visible && "bg-white/80 dark:bg-neutral-950/80",
         className,
       )}

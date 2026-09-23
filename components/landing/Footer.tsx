@@ -24,7 +24,7 @@ export default function Footer() {
           </h2>
 
           {/* Contact + réseaux sociaux */}
-          <div className="flex flex-col items-center md:items-end gap-4 md:pt-4 md:absolute md:top-0 md:right-0 md:items-end">
+          <div className="flex flex-col items-center md:items-end gap-4 md:pt-4 md:absolute md:top-0 md:right-0 ">
             <div className="text-center md:text-right text-sm font-semibold">
               <p>contact@omascholars.com</p>
               <p>+31 6XX XXX XXX</p>
